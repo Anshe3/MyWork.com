@@ -1,0 +1,796 @@
+@media only screen and (max-width:800px) {
+    .burger {
+        display: block;
+    }
+
+    .rightnav {
+        top: 18px;
+    }
+}
+
+@media only screen and (max-width:520px) {
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .name {
+        display: block;
+        text-align: center;
+        position: relative;
+        right: 7px;
+        font-size: 20px;
+        font-family: 'Aboreto', cursive;
+        /* font-family: 'Playfair Display', serif; */
+    }
+
+    .logo {
+        margin: 0px 0px;
+    }
+
+    .nav.background {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+    .line {
+        background-color: black;
+    }
+
+    .nav.background {
+        background: url();
+        background-color: #f7f5f2;
+    }
+
+    .logo img {
+        border: 1px solid #999;
+    }
+
+    .churchname {
+        display: none;
+    }
+
+    .churchname p3 {
+        margin-left: 60px;
+        font-size: 3vmin;
+    }
+
+    .churchname p4 {
+        margin-left: 23px;
+        font-size: 3vmin;
+    }
+
+    .social {
+        position: absolute;
+        /* left: -7%; */
+        bottom: 63%;
+    }
+
+    .fb img {
+        height: 31px;
+    }
+
+    .ig img {
+        height: 79px;
+    }
+
+    .twit img {
+        height: 31px;
+    }
+
+    .ig {
+        position: relative;
+        left: 19px;
+        top: 21px;
+    }
+
+    .fb {
+        position: relative;
+        left: 51px;
+
+    }
+
+    .twit {
+        position: relative;
+        left: 27px;
+    }
+
+    .place1 {
+        width: 261px;
+        background-color: unset;
+
+    }
+}
+
+/* for respon of nav title */
+@media only screen and (max-width:400px) {
+    .nav.background {
+        background: url();
+        background-color: #f7f5f2;
+    }
+
+    .logo img {
+        border: 1px solid #999;
+    }
+
+    .churchname {
+        display: none;
+    }
+
+    .res p3 {
+        font-size: 25px;
+    }
+
+    .july {
+        left: -9px;
+        width: 360px;
+    }
+
+    .july p1 {
+        position: relative;
+        left: 7px;
+    }
+
+    .july p2 {
+        position: relative;
+        left: 4px;
+    }
+
+    .pline {
+        display: block;
+        position: relative;
+        left: 67px;
+        width: 224px;
+    }
+
+    .pline2 {
+        display: block;
+        position: relative;
+        left: 24px;
+        width: 224px;
+    }
+}
+
+/* For centering img */
+@media only screen and (max-width:420px) {
+    .name {
+        font-size: 19px;
+        text-align: center;
+    }
+
+    .line {
+        background-color: black;
+    }
+
+    .nav.background {
+        background: url();
+        background-color: #f7f5f2;
+    }
+
+    .logo img {
+        border: 1px solid #999;
+    }
+
+    .nav .res {
+        display: none;
+        text-align: center;
+        position: relative;
+        /* top: 14px; */
+        font-size: 20px;
+        /* right: 4px; */
+        /* height: 55px */
+    }
+
+    .churchname {
+        display: none;
+    }
+
+    .res p3 {
+        font-size: 25px;
+        /* font-family: 'Raleway', sans-serif;s */
+    }
+
+    ul {
+        width: 100vw;
+        background-color: rgb(34, 27, 27);
+    }
+
+    .center-content p1 {
+        color: white;
+        font-size: 6vmin;
+    }
+
+    .center-content p2 {
+        color: white;
+        font-size: 4vmin;
+    }
+
+    .center-content p3 {
+        color: white;
+    }
+
+    .churchname p3 {
+        margin-left: 45px;
+        font-size: 4vmin;
+    }
+
+    .churchname p4 {
+        margin-left: 1px;
+        font-size: 4vmin;
+    }
+
+    .center-img {
+        display: flex;
+        justify-content: center;
+        margin-top: 31px;
+    }
+
+    .pline2 {
+        position: relative;
+        left: 25px;
+    }
+
+    .social {
+        position: absolute;
+        /* left: -7%; */
+        bottom: 63%;
+    }
+
+    .fb img {
+        height: 31px;
+    }
+
+    .ig img {
+        height: 79px;
+    }
+
+    .twit img {
+        height: 31px;
+    }
+
+    .ig {
+        position: relative;
+        left: 19px;
+        top: 21px;
+    }
+
+    .fb {
+        position: relative;
+        left: 51px;
+
+    }
+
+    .twit {
+        position: relative;
+        left: 27px;
+    }
+}
+
+@media only screen and (max-width:900px) {
+    .burger {
+        display: block;
+        z-index: 345;
+        cursor: pointer;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        z-index: 344;
+        position: absolute;
+        background-color: #82ccdd;
+        right: 0%;
+        height: 85vh;
+        top: 0%;
+        transition: all 0.6s ease-in-out;
+    }
+
+    .visi {
+        opacity: 0;
+        height: 0;
+    }
+
+
+    .nav ul li {
+        padding: 38px 15px;
+    }
+
+    .nav ul li a {
+        color: black;
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Aboreto', cursive;
+
+    }
+
+    .nav ul li a:after {
+        display: none;
+    }
+
+    .social {
+        position: absolute;
+        right: -0.5%;
+        bottom: 52%;
+        height: 185px;
+    }
+
+}
+
+@media only screen and (max-width:500px) {
+    .menu {
+        width: 100vw;
+        background-color: #82ccdd;
+        text-align: center;
+        top: 0;
+        left: 0;
+        transition: all 0.6s ease-in-out;
+        height: 85vh;
+    }
+
+    .visi {
+        opacity: 0;
+        height: 0;
+    }
+
+    .nav ul li {
+        padding: 40px;
+    }
+}
+
+@media only screen and (max-width:948px) {
+
+    .events {
+        height: 950px;
+    }
+
+    .line1 {
+        display: none;
+    }
+
+    .line2 {
+        display: none;
+    }
+
+    .july {
+        left: -1px;
+        top: 3px;
+    }
+
+    .august {
+        right: -1px;
+        top: 5px;
+    }
+
+    .december {
+        right: -4px;
+        top: 9px;
+    }
+
+    .center-img {
+        position: relative;
+        top: 86px;
+    }
+
+    .center-content {
+        position: relative;
+        top: 101px;
+    }
+
+    .july p0 {
+        font-size: 26px;
+    }
+
+    .july p1 {
+        font-size: 21px;
+    }
+
+    .july p2 {
+        font-size: 18px;
+    }
+
+    .july p3 {
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .august p0 {
+        font-size: 26px;
+    }
+
+    .august p1 {
+        font-size: 21px;
+    }
+
+    .august p2 {
+        font-size: 18px;
+    }
+
+    .august p3 {
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .december p0 {
+        font-size: 26px;
+    }
+
+    .december p1 {
+        font-size: 21px;
+    }
+
+    .december p2 {
+        font-size: 18px;
+    }
+
+    .december p3 {
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .upcoming p {
+        font-size: 26px;
+    }
+
+    .pline {
+        display: block;
+    }
+
+    .pline1 {
+        display: block;
+    }
+
+    .pline2 {
+        display: block;
+        /* position: relative;
+        left: 34px; */
+    }
+
+    .main {
+        flex-direction: column;
+        height: 203vh;
+    }
+
+    .about {
+        width: 300px;
+        position: relative;
+        display: flex;
+        align-self: center;
+    }
+
+    .main img {
+        position: relative;
+        right: -27px;
+        height: 160px;
+        width: 250px;
+    }
+
+    .service {
+        width: 300px;
+        position: relative;
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+    }
+
+    .youth {
+        width: 300px;
+        position: relative;
+        display: flex;
+        align-self: center;
+        flex-direction: column;
+    }
+
+    .main {
+        display: flex;
+        align-self: center;
+    }
+
+    .foot {
+        height: 125vh;
+        flex-direction: column;
+    }
+
+    .foot .abt {
+        display: flex;
+        flex-direction: column;
+        height: 214px;
+        text-align: center;
+        /* background-color: yellow; */
+        position: relative;
+        right: 4px;
+    }
+
+    .foot .address {
+        display: flex;
+        flex-direction: column;
+        margin: 0%;
+        padding: 0%;
+        text-align: center;
+        /* background-color: green; */
+        height: 250px;
+        position: relative;
+        top: 30px;
+        align-items: center;
+
+    }
+
+    .foot .subscribe {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: 190px;
+    }
+
+    .subscribe .place {
+        position: relative;
+        left: 0px;
+    }
+
+    .foot .address p {
+        position: relative;
+        left: 0px;
+    }
+
+    .gline {
+        display: none;
+
+    }
+
+    .horline {
+        display: block;
+        align-self: center;
+    }
+
+    .horline1 {
+        display: block;
+        align-self: center;
+        position: relative;
+        top: 34px;
+    }
+
+    .address p1 {
+        height: 165px;
+    }
+
+    .july p3:hover:after {
+        content: "";
+        width: 32%;
+        position: relative;
+        left: 98px;
+    }
+
+    .august p3:hover:after {
+        content: "";
+        width: 44%;
+        position: relative;
+        left: 53px;
+    }
+
+    .december p3:hover:after {
+        content: "";
+        width: 37%;
+        position: relative;
+        left: 75px;
+    }
+
+    a:after {
+        width: 0;
+        height: 0;
+    }
+
+    .ig:hover {
+        transform: none;
+    }
+
+    .fb:hover {
+        transform: none;
+    }
+
+    .twit:hover {
+        transform: none;
+    }
+
+    .read p:after {
+        display: none
+    }
+
+    .july p3:after {
+        display: none;
+    }
+
+    .august p3:after {
+        display: none;
+    }
+
+    .december p3:after {
+        display: none;
+    }
+}
+
+/* for august nd dec maintain */
+@media only screen and (max-width:365px) {
+    .december {
+        right: 5px;
+    }
+
+    .augusts {
+        right: 9px;
+    }
+
+    .july p1 {
+        font-size: 19px;
+    }
+}
+
+@media only screen and (max-width:414px) {
+    .foot.subscribe {
+        width: 420px;
+        /* height: 124px; */
+    }
+
+    .subscribe p {
+        width: 264px;
+    }
+
+    .address p1 {
+        position: relative;
+        right: 11px;
+    }
+}
+
+@media only screen and (max-width:300px) {
+    .welcome {
+        height: 180px;
+    }
+
+    .subscribe {
+        height: 180px;
+    }
+
+    .abt {
+        height: 235px;
+    }
+
+    .service {
+        height: 400px;
+    }
+
+    .youth {
+        height: 400px;
+    }
+
+    .about {
+        height: 400px;
+    }
+
+    .main {
+        height: 250vh;
+    }
+}
+
+@media screen and(max-width:700px) {
+    .foot {
+        height: 90vh;
+    }
+
+    .main {
+        height: 153vh;
+    }
+
+    .read {
+        margin-top: 0;
+        cursor: pointer;
+        width: 99px;
+        position: relative;
+        left: 98px;
+        height: 36px;
+        top: 22px;
+    }
+
+    .read p {
+        position: relative;
+        bottom: 10px;
+    }
+
+}
+
+@media screen and (max-width:350px) {
+    .july p1 {
+        font-size: 20px;
+    }
+
+    .july p2 {
+        font-size: 17px;
+    }
+
+    .july p3 {
+        font-size: 17px;
+    }
+
+    .name h3 {
+        font-size: 21px;
+    }
+
+}
+@media screen and (min-width:521px) and (max-width:948px) {
+    .burger {
+        position: absolute;
+        right: 15px;
+        top: 22px;
+    }
+
+    .place1 {
+        width: 261px;
+        background-color: unset;
+
+    }
+
+    .social {
+        right: -2%;
+        top: 21%;
+
+    }
+
+    .burg-line1 {
+        background-color: whitesmoke;
+    }
+
+    .burg-line2 {
+        background-color: whitesmoke;
+    }
+
+    .burg-line3 {
+        background-color: whitesmoke;
+    }
+
+}
+
+@media screen and (max-width:340px) {
+    .end p {
+        width: 176px;
+        margin-top: -36px;
+    }
+
+    .end {
+        flex-direction: column;
+        align-items: center;
+    }
+    .welcome{
+        height: 137px;
+    }
+    .main{
+        height:201vh;
+    }
+
+}
+
+@media screen and (min-height:900px) {
+    .main {
+        height: 126vh;
+    }
+
+    .foot {
+        height: 82vh;
+    }
+}
+
+@media screen and (max-width:315px) {
+    .subscribe p1 {
+        width: 190px;
+        margin-left: 20px;
+    }
+}
+@media screen and (max-width:308px) {
+    .name h3 {
+        font-size: 19px;
+    }
+    .welcome{
+        height: 182px;
+    }
+}
